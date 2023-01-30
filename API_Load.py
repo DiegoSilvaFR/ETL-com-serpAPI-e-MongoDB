@@ -4,7 +4,7 @@ from API_ET import df
 
 print(df)
 
-password = 2357       #sua senha do mongoDB
+password = #sua senha do mongoDB
 url = f'mongodb+srv://diego:{password}@cluster.nf0lbzp.mongodb.net/?retryWrites=true&w=majority'
 cliente = MongoClient(url)
 
